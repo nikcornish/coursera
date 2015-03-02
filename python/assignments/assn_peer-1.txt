@@ -1,0 +1,15 @@
+# Why is it so hard to learn programming? (Extra Credit)
+# Max 600 Words
+
+It's difficult to learn any language, especially as you get older. Why would you want to learn another language? You learned your native tongue so easily because you were immersed within it for years as a child, in a supportive learning environment. Once you begin to You need to have the right motivations to begin with.  It's important to understand why you'd want to spend the time learning a language, what benefits it will give you, and how can you use that language to express yourself.
+
+I come from a graphic design background, and first learned to write small bits of code
+in Adobe (then Macromedia) Flash. Being able to control playback of video content and create
+interface elements which reacted to user content I found very interesting, because suddenly 
+my job became more than just creating the look and feel of an interface. Now I had the 
+ability to control how the user interacts with what I was presenting, and also how the program / 
+software reacted back to the user. The ability to provide features and functionality to an 
+end user, ontop of being able to create and present the interface was a really interesting point
+in my professional development. 
+
+I believe it's difficult to learn programming because you need to adapt to a different mindset, a somewhat "non human" mindset before you can really get into writing your own code and creating programs that provide you or a user a benefit. Everbody needs to walk before then can run, so persisting with learning the basics of programming is important for anyone trying to learn a programming language.
