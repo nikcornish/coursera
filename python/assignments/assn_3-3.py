@@ -20,3 +20,5 @@ elif score >= 0.6:
 	print "D"
 elif score < 0.6:
 	print "F"
+else:
+	print ""
