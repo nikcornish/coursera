@@ -13,8 +13,8 @@ rate = float(raw_input("Please enter your rate: "))
 # variables
 standardHours = 40
 overtimeHours = hours - standardHours
-overtimeRate = 1.5
-overtimeRate = rate * overtimeRate
+overtimeRatio = 1.5
+overtimeRate = rate * overtimeRatio
 
 # helpful debugging output
 # print "You worked " + str(hours) + " standard hours."
