@@ -25,15 +25,57 @@
 
 # -------------------------------------
 
+# counts = dict()
+# names = ['bob','james','bob','ted','ted','patrick','bob','andrew']
+
+# for name in names :
+# 	if name not in counts :
+# 		counts[name] = 1
+# 	else :
+# 		counts[name] = counts[name] + 1
+# print counts
 
 
-counts = dict()
-names = ['bob','james','bob','bob','kate','james','harry']
 
-for name in names : 
-	if name not in counts :
-		counts[name] = 1
-	else :
-		counts[name] = counts[name] + 1
+fruitbowl = dict()
+fruits = ['apple','banana','orange','apple','strawberry','banana','apple','orange']
 
-print counts
+for fruit in fruits :
+	# for each fruit in fruits array, 
+	# either add it to dictionary and set it to zero, 
+	# or (it's already in dictionary), so increment it
+	fruitbowl[fruit] = fruitbowl.get(fruit,0) + 1
+	# create or update
+
+print fruitbowl
+print "There are",fruitbowl.get('carrots',0),"carrots in the fruitbowl."
+print "There are",fruitbowl.get('apple'),"apples in the fruitbowl."
+
+# the get method returns a value for a given key. 
+# if the key is not available, it returns default value None
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# name = raw_input("Enter file:")
+# if len(name) < 1 : name = "mbox-short.txt"
+# fhand = open(name)
+# ftext = fhand.read()
+# flines = ftext.strip(); # this strips excess white space...
+# clean = flines.split(); # this turns it into a list, based upon space character
+
+# print len(clean)
+# print type(clean)
+# print clean[0:10]
+
+# notes made during assn_9-4.py
